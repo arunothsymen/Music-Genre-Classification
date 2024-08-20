@@ -5,7 +5,7 @@ import pandas as pd
 # Function to load the pre-trained model
 def load_model():
     try:
-        with open('D:\\Project\\ADA\\MusicGenreClassification-main\\MusicGenreClassification-main\\model3.pkl', 'rb') as file:
+        with open('model3.pkl', 'rb') as file:
             model = pickle.load(file)
         return model
     except Exception as e:
